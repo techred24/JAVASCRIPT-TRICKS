@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.banner {
+    background-color: gray;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.main-menu {
+    background-color: lightblue;
+    line-height: 2;
+    text-align: center;
+}
+
+.main-menu p {
+    margin: 0;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
